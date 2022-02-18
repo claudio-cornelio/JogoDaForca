@@ -1,0 +1,71 @@
+body {
+    height: 1200px;
+    width: 800px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url("fundo.jpg");
+    /*background-size: 1920px 1080px;*/
+}
+
+.titulo {
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.jogoCanvas {
+    border: 1px solid #cccccc;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px 0 0 2px;
+    background-color: lightyellow;
+}
+
+.inicio {
+	background: blue;
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+	text-align: center;
+	position: relative;
+    /*padding: 10px 10px 10px 10px;*/
+}
+
+
+.bReiniciar {
+	/*position: absolute;
+	left: 30%;*/
+    width: 300px;
+    height: 80px;
+    /*border: 1px solid #cccccc;*/
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bNovaPalavra {
+	/*position: absolute;
+	left: 40%;*/
+    width: 300px;
+    height: 80px;
+    /*border: 1px solid #cccccc;*/
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.owner {
+    margin-top: 15px;
+    margin-left: 500px;
+    color: white;
+}
